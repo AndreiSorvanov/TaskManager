@@ -1,0 +1,11 @@
+.inputContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.label {
+  margin-right: 10px;
+  font-weight: 500;
+}

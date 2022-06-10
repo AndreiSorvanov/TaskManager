@@ -1,0 +1,75 @@
+.taskContainer {
+  margin-bottom: 10px;
+}
+
+.task {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  border: 1px solid gray;
+}
+
+@media (max-width: 800px) {
+  .task {
+    flex-direction: column;
+  }
+}
+
+.info {
+  margin: 0;
+  margin-right: 10px;
+}
+
+@media (max-width: 800px) {
+  .info {
+    margin: 0;
+  }
+}
+
+.taskInfo,
+.userInfo {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 800px) {
+  .taskInfo,
+  .userInfo {
+    flex-direction: column;
+  }
+}
+
+.id,
+.username {
+  margin-right: 5px;
+}
+
+.status,
+.email {
+  color: #999;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.buttons > *:not(:last-child) {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 800px) {
+  .buttons {
+    flex-direction: row;
+    margin-top: 20px;
+  }
+
+  .buttons > *:not(:last-child) {
+    margin: 0;
+    margin-right: 10px;
+  }
+}

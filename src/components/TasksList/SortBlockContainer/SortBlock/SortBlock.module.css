@@ -1,0 +1,14 @@
+.sortBlock {
+  margin-bottom: 10px;
+}
+
+.group {
+  display: inline-block;
+  border: none;
+}
+
+.sortSelect {
+  width: 100px;
+  margin-right: 10px;
+  cursor: pointer;
+}

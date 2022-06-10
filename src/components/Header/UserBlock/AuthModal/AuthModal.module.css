@@ -1,0 +1,69 @@
+.authModalHeading {
+  margin: 0;
+  margin-bottom: 20px;
+
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.form > * {
+  width: 100%;
+}
+
+.btnGroup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.loginBtn,
+.cancelBtn,
+.exitBtn {
+  min-width: 80px;
+  min-height: 30px;
+}
+
+.loginBtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  background-color: #90ee90;
+}
+
+.cancelBtn {
+  background-color: #d3d3d3;
+}
+
+.exitBtn {
+  margin-right: 10px;
+  background-color: #90ee90;
+}
+
+.loginBtn:disabled,
+.cancelBtn:disabled {
+  cursor: default;
+  opacity: 0.7;
+}
+
+.error {
+  margin-top: 10px;
+
+  text-align: center;
+  font-size: 0.8rem;
+  color: red;
+}
+
+.exitContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

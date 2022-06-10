@@ -1,0 +1,10 @@
+.content {
+  padding: 40px 40px;
+  background-color: #fff;
+}
+
+@media (max-width: 1024px) {
+  .content {
+    padding: 20px 20px;
+  }
+}

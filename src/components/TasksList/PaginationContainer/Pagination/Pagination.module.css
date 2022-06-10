@@ -1,0 +1,19 @@
+.pagination {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  font-weight: 600;
+  color: #704214;
+}
+
+.prevPage,
+.nextPage {
+  font-weight: inherit;
+  color: inherit;
+}
+
+.hidden {
+  visibility: hidden;
+}
