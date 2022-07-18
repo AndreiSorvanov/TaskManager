@@ -1,5 +1,7 @@
 # TaskManager
-Task Manager in React and Redux.
+Task Manager in React and Redux with sorting, pagination and authorization.
+
+Any user can see the list of tasks and create new task but only admin (login: "admin", password: "123") is allowed to edit task.
 
 For running locally:
 
